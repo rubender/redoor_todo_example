@@ -1,13 +1,12 @@
 {
-  "name": "Vivi",
-  "description": "Vivi",
+  "name": "redoor_todo_example",
+  "description": "redoor todo example",
   "version": "1.0.0",
   "main": "src/index.html",
   "license": "MIT",
   "scripts": {
     "dev": "npx rollup -c rollup.config.js --watch",
-    "tool": "npx redoor-devtool -o",
-    "dbg": "rprovider-debugger"
+    "tool": "npx redoor-devtool -o"
   },
   "dependencies": {
     "react": "^17.0.2",
