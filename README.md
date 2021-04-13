@@ -10,7 +10,7 @@ cd redoor_todo_example
 yarn
 yarn dev
 ```
-
+open browser at http://localhost:3000
 
 ### run react-devtool
 in another console run debug tool
