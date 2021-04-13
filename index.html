@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"/>
+    <meta name="mobile-web-app-capable" content="yes">
+    <meta name="theme-color" content="#000000">
+    <!--link href="dist/index.css" rel="stylesheet"-->
+    <style>
+      .todos {
+        display: flex;
+        flex-direction: column;
+        max-width: 500px;
+      }
+      .item {
+        font-size:1rem;
+
+        padding:0 10px;
+        background: #fafafa;
+        margin:10px 0;
+        display:flex;
+        justify-content: space-between;
+      }
+      .item_txt {
+        display:flex;
+        align-items: center;
+        cursor:pointer;
+        flex:1;
+      }
+      .item_del {
+        font-size:2rem;
+        padding: 10px;
+        cursor:pointer;
+      }
+      .item_del:hover {
+        color:red;
+      }
+      .input {
+        max-width: 300px;
+        display:flex;
+        justify-content: space-between;
+        align-items: center;
+      }
+      .input input, .input button {
+        padding: 5px;
+        margin:10px;
+        font-size:1rem;
+      }
+    </style>
+  </script>
+  </head>
+  <body id="body">
+    <div class="raspsu" id="app"></div>
+    <script  type="module"  src="dist/main.js"></script>
+  </body>
+</html>
