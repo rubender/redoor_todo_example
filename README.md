@@ -1,6 +1,5 @@
 # redoor_todo_example
-Redoor todo example
-
+Todo example for [redoor](https://github.com/rubender/redoor) library.
 
 ### run develop server
 
