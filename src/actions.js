@@ -35,9 +35,3 @@ export const a_delete = ({state,args}) => {
     todos
   }
 }
-
-export const a_setup = ({state,args}) => {
-  return {
-    loading:true
-  }
-}

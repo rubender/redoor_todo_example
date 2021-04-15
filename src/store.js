@@ -1,5 +1,6 @@
 import React, { createElement, Component, createContext } from 'react';
 import createStoreFactory from 'redoor';
+
 import * as actions from './actions'
 import * as actionsSetup from './actionsSetup'
 

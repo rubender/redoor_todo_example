@@ -1,21 +1,16 @@
 export const  __module_name = 'actionsSetup'
 
-let __initData = null;
 let __setState = null;
 let __getState = null;
-let __emit = null;
 
-export const bindStateMethods = (stateFn, updateState, emit) => {
+export const bindStateMethods = (stateFn, updateState) => {
   __getState = stateFn;
   __setState = updateState;
-  __emit = emit;
 };
-
 
 export const initState = {
   loading:true,
 }
-
 
 let CONST_DATA = [
   {id:1,value:'some data 1',done:false},
@@ -38,4 +33,3 @@ export const a_setup = async ({state,args}) => {
     todos:data
   })
 }
-
