@@ -956,9 +956,9 @@
   integrity sha512-EYNwp3bU+98cpU4lAWYYL7Zz+2gryWH1qbdDTidVd6hkiR6weksdbMadyXKXNPEkQFhXM+hVO9ZygomHXp+AIw==
 
 "@types/node@*":
-  version "14.14.37"
-  resolved "https://registry.yarnpkg.com/@types/node/-/node-14.14.37.tgz#a3dd8da4eb84a996c36e331df98d82abd76b516e"
-  integrity sha512-XYmBiy+ohOR4Lh5jE379fV2IU+6Jn4g5qASinhitfyO71b/sCo6MKsMLF5tc7Zf2CE8hViVQyYSobJNke8OvUw==
+  version "14.14.41"
+  resolved "https://registry.yarnpkg.com/@types/node/-/node-14.14.41.tgz#d0b939d94c1d7bd53d04824af45f1139b8c45615"
+  integrity sha512-dueRKfaJL4RTtSa7bWeTK1M+VH+Gns73oCgzvYfHZywRCoPSd8EkXBL0mZ9unPTveBn+D9phZBaxuzpwjWkW0g==
 
 "@types/parse-json@^4.0.0":
   version "4.0.0"
@@ -1608,9 +1608,9 @@ ee-first@1.1.1:
   integrity sha1-WQxhFWsK4vTwJVcyoViyZrxWsh0=
 
 electron-to-chromium@^1.3.712:
-  version "1.3.713"
-  resolved "https://registry.yarnpkg.com/electron-to-chromium/-/electron-to-chromium-1.3.713.tgz#4583efb17f2d1e9ec07a44c8004ea73c013ad146"
-  integrity sha512-HWgkyX4xTHmxcWWlvv7a87RHSINEcpKYZmDMxkUlHcY+CJcfx7xEfBHuXVsO1rzyYs1WQJ7EgDp2CoErakBIow==
+  version "1.3.717"
+  resolved "https://registry.yarnpkg.com/electron-to-chromium/-/electron-to-chromium-1.3.717.tgz#78d4c857070755fb58ab64bcc173db1d51cbc25f"
+  integrity sha512-OfzVPIqD1MkJ7fX+yTl2nKyOE4FReeVfMCzzxQS+Kp43hZYwHwThlGP+EGIZRXJsxCM7dqo8Y65NOX/HP12iXQ==
 
 emojis-list@^3.0.0:
   version "3.0.0"
@@ -3128,10 +3128,10 @@ redoor-devtool@^1.3.3:
     preact-compat "^3.19.0"
     ws "^6.1.4"
 
-redoor@^1.0.0:
-  version "1.0.2"
-  resolved "https://registry.yarnpkg.com/redoor/-/redoor-1.0.2.tgz#b859bb935ceb67dfb7df91ba0323d4f33f7b3a15"
-  integrity sha512-Rw7ZAyqawJFhav+xp46fVMZc5KzNNc4klz4F3G2Kbe7LTryMDMA1j7sS9NH07CZtoUpSM/0m2llfe3a1Uzg08g==
+redoor@^1.0.4:
+  version "1.0.4"
+  resolved "https://registry.yarnpkg.com/redoor/-/redoor-1.0.4.tgz#abfc6f8f267e5315e9d4e21653667f860bff025e"
+  integrity sha512-6GnFFK9N6zd+vUH+RR7aVkct7wwGq/ILDdnQQv/HZVwJ2WrCKo/h2U4IWjpHEm3EXMn0GrVqcqyFvSkkQxs6xA==
   dependencies:
     rollup "^2.45.2"
 

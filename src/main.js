@@ -4,14 +4,19 @@ import {Connect, Provider} from './store'
 
 import Input from './InputComp'
 import TodoList from './TodoList'
+import RootComp from './RootComp'
 
 
 const Main = () => (
   <Provider>
-    <h1>Todo:</h1>
-    <TodoList/>
-    <hr/>
-    <Input/>
+    <RootComp>
+
+        <h1>Todo:</h1>
+        <TodoList/>
+        <hr/>
+        <Input/>
+
+    </RootComp>
   </Provider>
 )
 
